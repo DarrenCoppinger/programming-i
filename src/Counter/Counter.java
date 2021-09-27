@@ -36,30 +36,11 @@ public class Counter {
 				check = false;
 			}
 		}while(check);
-
+		
+		input.close();
 		System.out.println("Program Terminated");
 		
 	}
 
 }
 
-
-/* 	public static void main(String[] args){
-Scanner input = new Scanner(System.in);
-System.out.println("Enter number: ");
-
-boolean check = true;
-
-do{
-	try{
-		int userNumber = input.nextInt();
-		System.out.printf("You entered %d%n", userNumber);
-		check = false;
-	}catch(InputMismatchException ime){
-		System.out.println("Error: " + ime);	
-		input.nextLine();			
-	}
-}while(check);
-
-System.out.println("Operation Over.");
-} */
